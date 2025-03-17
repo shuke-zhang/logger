@@ -10,8 +10,12 @@
     "type": "git",
     "url": "https://github.com/shuke-zhang/logger.git"
   },
-  "author": "shuke",
+  "author": "",
   "license": "ISC",
+  "files": [
+    "dist/*"
+  ],
+  "keywords": ["logger","shuke"], 
   "scripts": {
     "build": "rollup --config",
     "test": "echo \"Error: no test specified\" && exit 1"
