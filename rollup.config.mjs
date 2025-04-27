@@ -26,7 +26,7 @@ const devPlugins = [
   ]
 export default defineConfig({
 	input: {
-        index:'src/utils/logTest/logger.ts',
+        index:'src/utils/logger/index.ts',
     },
 	output: [
         {
