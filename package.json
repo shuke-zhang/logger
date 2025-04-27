@@ -1,6 +1,6 @@
 {
   "name": "@shuke~/logger",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": false,
   "description": "一个控制台打印的工具",
   "main": "index.js",
