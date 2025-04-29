@@ -17,8 +17,7 @@ fs.writeFileSync(packageJsonPath, JSON.stringify(packageJson, null, 2))
 console.log('开始打包过程...')
 
 exec('pnpm', [
-  '-F',
-  '@shuke~/logger',
+  'run',
   'build', // 添加打包步骤，如果需要的话
 ]).then((res) => {
   console.log('打包完成！')

@@ -1,12 +1,13 @@
 {
     "name": "@shuke~/logger",
-    "version": "1.2.6",
+    "version": "1.2.7",
     "private": false,
     "description": "控制台打印工具",
     "main": "index.js",
     "module": "./dist/index.esm.js",
     "types": "./dist/index.d.ts",
     "scripts": {
+      "build": "rollup -c",
       "bumpp": "bumpp"
     },
     "exports": {
