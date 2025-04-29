@@ -8,10 +8,10 @@
     "strict": true,
     "declaration": true,
     "declarationMap": false,
-    "outDir": "dist",
+    "outDir": "packages/core/dist",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "skipLibCheck": true
   },
-  "include": ["package/core/src",]
+  "include": ["./packages/core/src/**/*",]
 }

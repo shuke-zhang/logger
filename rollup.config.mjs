@@ -26,12 +26,12 @@ const devPlugins = [
   ]
 export default defineConfig({
 	input: {
-        index:'src/utils/logger/index.ts',
+        index:'./packages/core/src/utils/logger/index.ts',
     },
 	output: [
         {
             format: 'es', // 输出 esm 模块 esm 是指 ECMAScript 模块 commonjs 是指 CommonJS 模块
-            dir: 'dist', // 指定目录
+            dir: './packages/core/dist', // 指定目录
             entryFileNames: '[name].esm.js',// 表示输出文件名将是入口文件名加上 .esm.js 后缀。name 是指入口文件名。
             sourcemap: true, // 会为每个输出文件生成对应的源映射文件（.map 文件）。
         },
